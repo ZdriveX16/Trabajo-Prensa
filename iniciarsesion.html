@@ -1,0 +1,119 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	form{
+		border:3px solid darkred;
+		padding:20px;
+		width: 40%;
+	}
+		label{
+			display: inline-block;
+			width: 20%;
+		}
+	textarea{
+		width: 450px;
+		height: 150px;
+	}
+	
+			</style>
+<body>
+<p>
+	<form action="paginaServidor.php" method="POST">
+<caption> <h2> Formulario de ingreso </h2>
+		  <h5> Debe de rellenar todos los campos</h5>
+		</caption>
+		<hr>
+    <p>
+       <label for="txtNombre"> Nombre </label>  <input type="text" name="nombre" required="">
+    </p>
+     <p>
+       <label for="txtApellidos"> Apellidos </label>  <input type="text" name="Apellidos" required="">
+    </p>
+     <p>
+       <label for="txtFechaNac"> Fecha Nacimiento </label> <input type="date" name="fechaNac" id="txtFechaNac" required="">
+     </p>
+      <p>
+       <label for="txtMail"> Mail </label>  <input type="mail" name="nombre" id="txtMail" required="">
+    </p>
+    <p>
+       <label for="txtDireccion"> Direccion </label>  <input type="text" name="Direccion" required="">
+    </p>
+    <p>
+       <label for="txtProvincia"> Provincia </label>  <input type="text" name="Provincia">
+    </p>
+     <p>
+        <label for="txtTelefono"> Teléfono </label> <input type="tel" name="telefono">
+    </p>
+     
+      <label for="txtCuenta"> Cuenta </label>  <input type="number" name="Cuenta" maxlength="20">
+      <p>
+      <input type="submit" name="btnEnviar" value="Enviar">
+      </p>
+</form>
+
+</body>
+</html>
+</p>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link type="text/css" href="./css/style.css" rel="stylesheet" />
+    <style type="text/css">
+    	<style type="text/css">
+	form{
+		border:3px solid darkred;
+		padding:20px;
+		width: 40%;
+	}
+		label{
+			display: inline-block;
+			width: 20%;
+		}
+	textarea{
+		width: 450px;
+		height: 150px;
+	}
+	
+			</style>
+    </style>
+    
+</head>
+ 
+<body>
+ 
+    <div id="registrar">
+</div> 
+ 
+    <div id="envoltura">
+        <div id="contenedor">
+ 
+            <div id="cabecera" >
+                <img src="./css/images/logo.gif">
+            </div>
+ 
+            <div id="cuerpo">
+                <form id="form-login" action="" method="post" autocomplete="off">
+                    
+                    <p><label >Usuario:</label></p>
+                        <input name="usuario" type="text" id="usuario" placeholder="Username" autofocus="" required=""></p>
+ 
+                    <p><label>Contraseña:</label></p>
+                        <input name="contrasena" type="password" id="contrasenia" placeholder="Password" required=""></p>
+ 
+                    <p id="bot"><input type="submit" name="submit" value="Ingresar" class="boton"></p>
+                </form>
+            </div>
+ 
+            <div id="pie">Sistema de Login Y Registro</div>
+        </div>
+    </div>
+</body>
+ 
+</html>
